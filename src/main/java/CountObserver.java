@@ -7,6 +7,6 @@ public class CountObserver implements Observador{
 
     @Override
     public void update(List<Circle> lista) {
-        System.out.println("Hay " + lista.size() + " circulos.");
+        System.out.println("There are " + lista.size() + " circles.");
     }
 }

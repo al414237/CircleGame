@@ -21,6 +21,6 @@ public class Circle {
 
     @Override
     public String toString() {
-        return "Círculo con centro (" + x + ", " + y + ") y radio " + r;
+        return "Circle: center (" + x + ", " + y + "), radius " + r;
     }
 }

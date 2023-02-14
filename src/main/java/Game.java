@@ -29,11 +29,15 @@ public class Game implements Sujeto {
 
         if (indiceCandidato>=0){
             lista.remove(indiceCandidato);
+            notificar();
+        } else {
+            System.out.println("There are not circles.");
         }
-
-        notificar();
     }
 
+    public int getSize(){
+        return lista.size();
+    }
 
     @Override
     public void notificar() {
